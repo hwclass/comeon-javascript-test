@@ -1,0 +1,30 @@
+{
+  "name": "comeon-javascript-test",
+  "version": "1.0.0",
+  "description": "A challenge test for ComeOn",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comeon-stockholm/comeon-javascript-test.git"
+  },
+  "keywords": [
+    "challenge",
+    "comeon"
+  ],
+  "author": "-",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comeon-stockholm/comeon-javascript-test/issues"
+  },
+  "homepage": "https://github.com/comeon-stockholm/comeon-javascript-test",
+  "devDependencies": {
+    "http-server": "^0.8.5",
+    "superstatic": "^3.0.0"
+  },
+  "dependencies": {
+    "riot": "^2.3.1"
+  }
+}
