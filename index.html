@@ -21,20 +21,20 @@
 
   <body>
     <div class="ui one column center aligned page grid">
-        <div class="column twelve wide">
-            <img src="images/logo.png" alt="logo">
-        </div>
+      <div class="column twelve wide">
+        <img src="images/logo.png" alt="logo">
+      </div>  
     </div>
     <div class="main container">
       <login></login>
       <casino></casino>
       <ingame></ingame>
-      <script src="login.tag" type="riot/tag"></script>
-      <script src="casino.tag" type="riot/tag"></script>
-      <script src="ingame.tag" type="riot/tag"></script>
+      <script src="components/login.tag" type="riot/tag"></script>
+      <script src="components/casino.tag" type="riot/tag"></script>
+      <script src="components/ingame.tag" type="riot/tag"></script>
       <script src="https://cdn.jsdelivr.net/g/riot@2.2(riot.min.js+compiler.min.js)"></script>
       <script>
-      riot.mount('login');
+        riot.mount('login');
       </script>
     </div>
   </body>
