@@ -46,7 +46,6 @@
         } else if (status === 'success') {
           tag.unmount(true);
           riot.mount('casino', data);
-          // riot.route('#casino');
         }
       });
     };

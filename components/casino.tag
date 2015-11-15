@@ -115,34 +115,22 @@
     };
 
     play(event) {
-      console.log('play');
       var game = event.item;
       var index = tag.games.indexOf(game);
       tag.unmount(true);
       riot.mount('ingame', { code : tag.games[index]['code'] });
-      // riot.route('#ingame');
     }
 
     getCategories(function (categories) {
-      console.dir(tag.categories);
       tag.categories = categories;
       tag.update();
     });
 
     getGames(function (games) {
-      console.log('getGames');
       this.games = games;
-      console.log(this);
       tag.games = games;
-      console.dir(tag.games);
       tag.update();
     });
-
-    // console.log(this);
-
-    // riot.route('#casino', function () {
-    //   console.log('URL hash changed.' + 'casino');
-    // });
 
   </script>
 </casino>
