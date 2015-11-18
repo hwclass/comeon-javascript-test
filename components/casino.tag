@@ -94,7 +94,7 @@
     var getGames = function (callback) {
       $.ajax({
         url: '/games',
-        method: 'GET', 
+        method: 'GET',
         contentType : 'application/json',
       }).then(function (games) {
         callback(games);
@@ -134,6 +134,3 @@
 
   </script>
 </casino>
-
-
-

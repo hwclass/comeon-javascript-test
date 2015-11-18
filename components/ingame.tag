@@ -10,11 +10,12 @@
       <div class="three wide column"></div>
     </div>
 	</div>
+
   <script>
 
-    var gameCode = opts.code; 
+		var gameCode = opts.code;
 
-    this.on('mount', function(){
+		this.on('mount', function(){
       comeon.game.launch(gameCode);
     });
 
@@ -24,4 +25,5 @@
     };
 
   </script>
+
 </ingame>

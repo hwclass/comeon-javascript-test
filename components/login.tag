@@ -1,5 +1,4 @@
 <login>
-
   <div class="login" style="display:block;">
     <div class="ui grid centered">
       <form>
@@ -28,8 +27,9 @@
   </div>
 
   <script>
+
     var tag = this;
-  
+
     login() {
       $.ajax({
         url: '/login',
@@ -49,6 +49,7 @@
         }
       });
     };
+
   </script>
 
 </login>
